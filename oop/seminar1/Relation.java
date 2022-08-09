@@ -1,6 +1,13 @@
 package Java_seminar.oop.seminar1;
 
 public enum Relation {
-    PARENT,
-    CHILD
+    Mother,
+    Father,
+    Brother,
+    Sister,
+    Child,
+    Wife,
+    Husbend
+
+
 }
