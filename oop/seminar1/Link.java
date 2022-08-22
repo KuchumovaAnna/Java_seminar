@@ -1,6 +1,7 @@
 package Java_seminar.oop.seminar1;
 
-public class Link {
+/*public class Link {
+
     private Person personFirst;
     private Person personSecond;
     private Relation link;
@@ -31,4 +32,25 @@ public class Link {
                 ", link=" + link +
                 '}';
     }
+}*/
+
+public enum Link {
+    CHILD("Child"),
+    BROTHER("Brother"),
+    SPOUSE("Spouse"),
+    UNKNOWN("Unknown"),
+    MOTHER("Mother"),
+    FATHER("Father"),
+    ADOPTED("Adopted");
+
+    private String title;
+
+    Link(String title) {
+        this.title = title;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
 }
